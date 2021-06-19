@@ -13,6 +13,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all opacity  0.5s ease;
+}
+
+.preload-finish {
+    opacity: 0;
+    pointer-events: none;
 }
 
 .cloud1,
